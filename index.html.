@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Quán Cà Phê Hoa Tím</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdf6f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #7b2cbf;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .menu {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+    .price {
+      font-weight: bold;
+      color: #7b2cbf;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #7b2cbf;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Menu Quán Cà Phê Hoa Tím ☕</h1>
+    <p>Chào mừng bạn đến với quán chúng tôi</p>
+  </header>
+
+  <div class="menu">
+    <div class="item"><span>Cà phê đen</span> <span class="price">15k</span></div>
+    <div class="item"><span>Cà phê sữa đá</span> <span class="price">20k</span></div>
+    <div class="item"><span>Cacao sữa</span> <span class="price">28k</span></div>
+    <div class="item"><span>Cacao đá</span> <span class="price">25k</span></div>
+    <div class="item"><span>Chanh dây</span> <span class="price">25k</span></div>
+    <div class="item"><span>Chanh tươi</span> <span class="price">15k</span></div>
+    <div class="item"><span>Chanh muối</span> <span class="price">20k</span></div>
+    <div class="item"><span>Đá me</span> <span class="price">20k</span></div>
+    <div class="item"><span>Lipton</span> <span class="price">18k</span></div>
+  </div>
+
+  <footer>
+    <p>📍 Địa chỉ: 123 Hoa Tím, Lai Vung, Đồng Tháp</p>
+    <p>📞 Hotline: 0909 123 456</p>
+  </footer>
+</body>
+</html>
